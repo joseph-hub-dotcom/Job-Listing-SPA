@@ -1,3 +1,10 @@
+Simple Job-Listing-SPA
+Just a Test project for fetching data from a public API with a
+custom hook.
+The project was more about testing more functionalities and patterns, 
+wasn't too style focused.
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

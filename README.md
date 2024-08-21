@@ -1,6 +1,8 @@
-Simple Job-Listing-SPA
+Simple Job-Listing-SPA.
+
 Just a Test project for fetching data from a public API with a
 custom hook.
+
 The project was more about testing more functionalities and patterns, 
 wasn't too style focused.
 

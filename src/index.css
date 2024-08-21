@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins';
+    min-height: 100vh;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    background-color: transparent;
+    justify-content: space-between;
+    padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero{
+    background-image: url(hello.webp);
+    background-size: cover;
+    background-position: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 550px;
+}
+
+.center{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heroSection{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+    box-shadow: rgba(99, 99, 99, 0.6) 0px 2px 8px 0px;
+    width: 60%;
+    height: 70%;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.5); /* White with 50% transparency */
+    backdrop-filter: blur(3px); /* Applies the blur effect */
+
+}
+
+.heroMain{
+    /* background-color: aqua; */
+    width: 70%;
+}
+.left{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.right{
+    display: flex;
+    justify-content: left;
+    gap: 10%;
+}
+
+.web-pic {
+    display: flex;
+    justify-content: flex-end;
+  }
+.hero-img {
+    max-width: 80%;
+    height: 80%;
+    border-radius: 10px;
+}
+
+
+.jobDiv{
+    color: whitesmoke;
+    display: flex;
+    width: 58%;
+    height: auto;
+    padding: 15px;
+    justify-content: space-between;
+    background-color: aqua;
+    margin: 10px 0px 0px 0px;
+    border-radius: 2%;
+    box-shadow: rgba(99, 99, 99, 0.6) 0px 2px 8px 0px;
+    background-color: rgba(29, 50, 143, 0.614);
+}
+
+.jobTags{
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    justify-content: flex-end;
+}
+
+
+
+
+/* Tablet styles */
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+        padding: 10px 20px;
+        width: 48rem;
+        height: auto;
+    }
+
+    .nav-links {
+        gap: 10px;
+    }
+    .hero {
+        height: auto;
+        width: 50rem;
+    }
+
+    .heroSection {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .jobDiv {
+        width: 75%;
+        padding: 10px;
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 480px) {
+    nav {
+        display: flex;
+        padding: 10px 20px;
+        width: 40rem;
+        height: auto;
+    }
+
+    .nav-links {
+        gap: 10px;
+    }
+
+    .hero {
+        height: auto;
+        width: 40rem;
+    }
+
+    .heroSection {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .heroMain {
+        width: 100%;
+    }
+
+    .jobDiv {
+        width: 90%;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+}
+
